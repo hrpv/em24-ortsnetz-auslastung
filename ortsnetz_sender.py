@@ -34,11 +34,10 @@ from zoneinfo import ZoneInfo
 # ----------------------------------------------------------------------------
 # Konfiguration
 # ----------------------------------------------------------------------------
-# Standort: Gemeindemitte Aichwald (Wikipedia: 48.75806 N, 9.38028 E), auf ca. 100 m
-# gerundet. Bitte innerhalb des eigenen Ortsnetzes anpassen bzw. leicht verschieben.
-LATITUDE = 48.758
-LONGITUDE = 9.380
-PLANT_KWP = 10.4
+# Standort: Bitte innerhalb des eigenen Ortsnetzes anpassen bzw. leicht verschieben.
+LATITUDE = 48.0
+LONGITUDE = 9.0
+PLANT_KWP = 10.0
 SMARTMETER_MODEL = "Carlo Gavazzi EM24 (mbmd)"
 INTEGRATION_VERSION = "python-mbmd-0.1.0"  # max. 32 Zeichen
 
