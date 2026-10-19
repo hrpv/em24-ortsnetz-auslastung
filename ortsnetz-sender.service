@@ -1,0 +1,11 @@
+[Unit]
+Description=Ortsnetz-Auslastung Sender
+After=network-online.target mosquitto.service
+
+[Service]
+ExecStart=/usr/bin/python3 /home/pi/ortsnetz_sender.py
+Restart=on-failure
+User=pi
+
+[Install]
+WantedBy=multi-user.target
