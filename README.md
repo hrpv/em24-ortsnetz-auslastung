@@ -2,7 +2,7 @@
 
 Python-Skript zur Übertragung von Netzspannungsdaten eines Carlo-Gavazzi-EM24-Zählers an [ortsnetz-auslastung.de](https://ortsnetz-auslastung.de).
 
-> **Status:** Community-Integration in experimentellem Stand. Dieses Repository ist nach aktuellem Kenntnisstand kein offizieller Bestandteil von ortsnetz-auslastung.de. Eine offizielle Unterstützung oder Kompatibilität mit der aktuellen API ist nicht zugesichert. Vor dem produktiven Einsatz bitte die aktuellen API-Vorgaben des Projekts prüfen.
+> **Status:** Community-Integration in experimentellem Stand. Dieses Repository ist kein offizieller Bestandteil von ortsnetz-auslastung.de. Eine offizielle Unterstützung oder Kompatibilität mit der aktuellen API ist nicht zugesichert. Vor dem produktiven Einsatz bitte die aktuellen API-Vorgaben des Projekts prüfen.
 
 ## Zweck
 
@@ -152,9 +152,6 @@ sudo systemctl disable --now ortsnetz-sender.service
 - Das Skript wurde für eine bestimmte lokale Konfiguration entwickelt. Vor einer breiteren Nutzung sollte es mit anderen `mbmd`- und MQTT-Konfigurationen getestet werden.
 - Die Funktion hängt von externen Diensten und der aktuellen API ab; Änderungen dort können Anpassungen erforderlich machen.
 
-## Mitwirkung und Pflege
-
-Fehlerberichte, Verbesserungsvorschläge und Pull Requests sind willkommen. Es handelt sich um eine Community-Integration; eine laufende Pflege oder ein Support kann nicht garantiert werden. Falls der Betreiber bzw. Autor von ortsnetz-auslastung.de die Integration übernehmen, offiziell verlinken oder in das Hauptprojekt integrieren möchte, ist das willkommen.
 
 ## Lizenz
 
