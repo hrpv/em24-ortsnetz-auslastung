@@ -143,6 +143,10 @@ Zum Stoppen und Deaktivieren:
 sudo systemctl disable --now ortsnetz-sender.service
 ```
 
+## Screenshot
+
+<img width="608" height="674" alt="image" src="https://github.com/user-attachments/assets/210455e6-b0b5-4f92-afaf-220ec4ac5959" />
+
 ## Bekannte Grenzen und Hinweise
 
 - Die PV-Prognose ist eine vereinfachte Schätzung und kann deutlich vom tatsächlichen Ertrag abweichen.
